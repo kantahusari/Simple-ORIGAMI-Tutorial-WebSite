@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kanta Husari">
+    <meta name="keywords" content="origami, paper folding, how to paper crafting, magic wiith paper, origami tutorials, hobbies, history of origami, paper crafting samples">
+    <meta name="description" content="A tutorial website of how to do fantastic paper foldings">
+    <title>Tutorials</title>
+<link rel="stylesheet" href="tutorials.css">
+</head>
+<body>
+    <header>
+            <table>
+                <tr>
+                    <td><a href="index.html" class="links">Main</a></td>
+                    <td>|</td>
+                    <td><a href="../../../index.html" class="links">Profile</a></td>
+                    <td>|</td>
+                    <td><a href="../../index.html" class="links">Comp1223</a></td>
+                    <td>|</td>
+                    <td><a href="sources.html" class="links">Resources</a></td>
+                </tr>
+            </table>
+        </header>
+        <div class="row">
+                <div class="column">
+                    <img src="pics/big/1.jpg" alt="cup" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="pics/big/2.jpg" alt="lobster" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="pics/big/3.jpg" alt="dog" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="pics/big/4.jpg" alt="lion" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="pics/big/5.jpg" alt="mouse" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="pics/big/6.jpg" alt="whale" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="pics/big/7.jpg" alt="dog2" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="pics/big/8.jpg" alt="bear" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="pics/big/9.jpg" alt="cat" style="width:100%" onclick="myFunction(this);">
+                </div>
+                </div>
+            
+                <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" style="width:100%" src="pics/big/10.jpg" alt="container">
+                <div id="imgtext"></div>
+                </div>
+            
+                <script>
+                function myFunction(imgs) {
+                    var expandImg = document.getElementById("expandedImg");
+                    var imgText = document.getElementById("imgtext");
+                    expandImg.src = imgs.src;
+                    expandImg.parentElement.style.display = "block";
+                }
+                </script>
+            
+    <script src=http://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>
